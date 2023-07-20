@@ -8,7 +8,7 @@ The data represents sales of houses in Ames, Iowa from 2006 to 2010. It was pres
 
 The data can be found in the [data](data/) directory. It is split into a test set [test.csv](data/test.csv) (without target) and a train set [train.csv](data/train.csv) (with target) with a 50%-50% split. The data contains 79 features which are described in [data_description.txt](data/data_description.txt). There is also a file [sample_submission.csv](data/sample_submission.csv) showing an example submission for the Kaggle challenge.
 
-The data set is licensed under the GPL-2 (GNU General Public License Version 2) license.
+The data set is licensed under the GPL-2 (GNU General Public License Version 2) license. The license is given in [LICENSE](LICENSE).
 
 ## Project Description
 In the directory [jupyter_notebooks](jupyter_notebooks/), there is a jupyter notebook  with a first iteration to solving the challenge.
