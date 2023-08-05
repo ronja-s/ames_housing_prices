@@ -1,3 +1,5 @@
+hpsklearn @ git+https://github.com/hyperopt/hyperopt-sklearn@4b3f6fde3a1ded2e71e8373d52c1b51a0239ef91
+hyperopt~=0.2
 matplotlib~=3.7
 numpy~=1.25
 pandas~=2.0
