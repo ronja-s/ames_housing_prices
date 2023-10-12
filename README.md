@@ -11,16 +11,32 @@ The data can be found in the [data](data/) directory. It is split into a test se
 The data set is licensed under the GPL-2 (GNU General Public License Version 2) license, see [LICENSE](LICENSE).
 
 ## Project Description
-In the directory [jupyter_notebooks](jupyter_notebooks/), there are multiple jupyter notebooks with different approaches for predicting the house prices.
+In the directory [jupyter_notebooks](jupyter_notebooks/), there are multiple jupyter notebooks with different approaches for predicting the house prices or analyzing the data set.
 
 The resulting predictions are stored in the folder [results](results/).
 
-### Version 1
-The first version is given by the notebook [01_basic.ipynb](jupyter_notebooks/01_basic.ipynb).
+### Notebook 1
+Given by [01_basic.ipynb](jupyter_notebooks/01_basic.ipynb).
 
-The goal for the first version is to create a complete basic solution by building a `scikit-learn` pipeline. It contains all required steps to make predictions. But especially the preprocessing is not very elaborate and specific to the data.
+The goal for the first notebook is to create a complete basic solution by building a `scikit-learn` pipeline. It contains all required steps to make predictions. But especially the preprocessing is not very elaborate and specific to the data.
 
-### Version 2
-The second version is given by the notebook [02_automl.ipynb](jupyter_notebooks/01_automl.ipynb).
+### Notebook 2
+Given by [02_automl.ipynb](jupyter_notebooks/01_automl.ipynb).
 
-The goal of the second version is to test multiple AutoML libraries and see whether they yield a better performance than our basic solution from version 1.
+The goal of the second notebook is to test multiple AutoML libraries and see whether they yield a better performance than the basic solution from the first notebook [01_basic.ipynb](jupyter_notebooks/01_basic.ipynb). The following AutoML libraries are tested:
+- TPOT
+- Hyperopt-Sklearn
+
+### Notebook 3
+Given by [03_exploratory_data_analysis.ipynb](jupyter_notebooks/03_exploratory_data_analysis.ipynb).
+
+The goal of the third notebook is an extensive exploratory data analysis of the training data. This can be the basis of a more elaborate preprocessing. The following properties of the data are analyzed in more depth: 
+- Missing values
+- Faulty data
+- Categorical variables
+- Distributions
+- Relationships between features
+- Relationships of features with target
+- Outliers
+- Clusters
+
